@@ -1,0 +1,96 @@
+INFO  time: initialize in 0.39s
+WARN  no build target: d:\scala\w1recfun\src\main\scala\recfun\Main.scala
+INFO  no build target: using presentation compiler with only scala-library
+WARN  code navigation does not work for the file 'd:\scala\w1recfun\src\main\scala\recfun\Main.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file 'd:\scala\w1recfun\src\main\scala\recfun\Main.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file 'd:\scala\w1recfun\src\main\scala\recfun\Main.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file 'd:\scala\w1recfun\src\main\scala\recfun\Main.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file 'd:\scala\w1recfun\src\main\scala\recfun\Main.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file 'd:\scala\w1recfun\src\main\scala\recfun\Main.scala' because it doesn't belong to a build target.
+WARN  no build target: d:\scala\w1recfun\src\main\scala\recfun\Main.scala
+WARN  code navigation does not work for the file 'd:\scala\w1recfun\src\main\scala\recfun\Main.scala' because it doesn't belong to a build target.
+WARN  no build target: d:\scala\w1recfun\src\main\scala\common\package.scala
+Aug 22, 2019 2:18:27 PM scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+Aug 22, 2019 2:18:27 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.reflect.internal.Definitions$DefinitionsClass.isByNameParamType(Definitions.scala:416)
+	at scala.reflect.internal.TreeInfo.isStableIdent(TreeInfo.scala:137)
+	at scala.reflect.internal.TreeInfo.isStableIdentifier(TreeInfo.scala:113)
+	at scala.reflect.internal.TreeInfo.isPath(TreeInfo.scala:102)
+	at scala.reflect.internal.TreeInfo.admitsTypeSelection(TreeInfo.scala:155)
+	at scala.tools.nsc.interactive.Global.stabilizedType(Global.scala:959)
+	at scala.tools.nsc.interactive.Global.typedTreeAt(Global.scala:807)
+	at scala.meta.internal.pc.SignatureHelpProvider.signatureHelp(SignatureHelpProvider.scala:22)
+
+something's wrong: no file:///d%3A/scala/w1recfun/src/main/scala/recfun/Main.scala in List[<error>]RangePosition(file:///d%3A/scala/w1recfun/src/main/scala/recfun/Main.scala, 563, 563, 577)
+something's wrong: no file:///d%3A/scala/w1recfun/src/main/scala/recfun/Main.scala in List[<error>]RangePosition(file:///d%3A/scala/w1recfun/src/main/scala/recfun/Main.scala, 563, 563, 570)
+something's wrong: no file:///d%3A/scala/w1recfun/src/main/scala/recfun/Main.scala in List[<error>]RangePosition(file:///d%3A/scala/w1recfun/src/main/scala/recfun/Main.scala, 563, 563, 571)
+something's wrong: no file:///d%3A/scala/w1recfun/src/main/scala/recfun/Main.scala in List[<error>]RangePosition(file:///d%3A/scala/w1recfun/src/main/scala/recfun/Main.scala, 563, 563, 572)
+something's wrong: no file:///d%3A/scala/w1recfun/src/main/scala/recfun/Main.scala in List[<error>]RangePosition(file:///d%3A/scala/w1recfun/src/main/scala/recfun/Main.scala, 563, 563, 573)
+something's wrong: no file:///d%3A/scala/w1recfun/src/main/scala/recfun/Main.scala in List[String]RangePosition(file:///d%3A/scala/w1recfun/src/main/scala/recfun/Main.scala, 563, 563, 575)
+something's wrong: no file:///d%3A/scala/w1recfun/src/main/scala/recfun/Main.scala in List[<error>]RangePosition(file:///d%3A/scala/w1recfun/src/main/scala/recfun/Main.scala, 563, 563, 574)
+something's wrong: no file:///d%3A/scala/w1recfun/src/main/scala/recfun/Main.scala in List[<error>]RangePosition(file:///d%3A/scala/w1recfun/src/main/scala/recfun/Main.scala, 563, 563, 573)
+something's wrong: no file:///d%3A/scala/w1recfun/src/main/scala/recfun/Main.scala in List[<error>]RangePosition(file:///d%3A/scala/w1recfun/src/main/scala/recfun/Main.scala, 563, 563, 572)
+something's wrong: no file:///d%3A/scala/w1recfun/src/main/scala/recfun/Main.scala in List[<error>]RangePosition(file:///d%3A/scala/w1recfun/src/main/scala/recfun/Main.scala, 563, 563, 571)
+something's wrong: no file:///d%3A/scala/w1recfun/src/main/scala/recfun/Main.scala in List[<error>]RangePosition(file:///d%3A/scala/w1recfun/src/main/scala/recfun/Main.scala, 563, 563, 570)
+something's wrong: no file:///d%3A/scala/w1recfun/src/main/scala/recfun/Main.scala in List[<error>]RangePosition(file:///d%3A/scala/w1recfun/src/main/scala/recfun/Main.scala, 563, 563, 577)
+something's wrong: no file:///d%3A/scala/w1recfun/src/main/scala/recfun/Main.scala in List[<error>]RangePosition(file:///d%3A/scala/w1recfun/src/main/scala/recfun/Main.scala, 563, 563, 570)
+something's wrong: no file:///d%3A/scala/w1recfun/src/main/scala/recfun/Main.scala in List[Char]RangePosition(file:///d%3A/scala/w1recfun/src/main/scala/recfun/Main.scala, 563, 563, 573)
+something's wrong: no file:///d%3A/scala/w1recfun/src/main/scala/recfun/Main.scala in List[Char]RangePosition(file:///d%3A/scala/w1recfun/src/main/scala/recfun/Main.scala, 563, 563, 573)
+something's wrong: no file:///d%3A/scala/w1recfun/src/main/scala/recfun/Main.scala in List[Char]RangePosition(file:///d%3A/scala/w1recfun/src/main/scala/recfun/Main.scala, 563, 563, 574)
+something's wrong: no file:///d%3A/scala/w1recfun/src/main/scala/recfun/Main.scala in List[Char]RangePosition(file:///d%3A/scala/w1recfun/src/main/scala/recfun/Main.scala, 563, 563, 574)
+something's wrong: no file:///d%3A/scala/w1recfun/src/main/scala/recfun/Main.scala in List[Char]RangePosition(file:///d%3A/scala/w1recfun/src/main/scala/recfun/Main.scala, 563, 563, 573)
+something's wrong: no file:///d%3A/scala/w1recfun/src/main/scala/recfun/Main.scala in List[Char]RangePosition(file:///d%3A/scala/w1recfun/src/main/scala/recfun/Main.scala, 563, 563, 573)
+something's wrong: no file:///d%3A/scala/w1recfun/src/main/scala/recfun/Main.scala in List[Char]RangePosition(file:///d%3A/scala/w1recfun/src/main/scala/recfun/Main.scala, 563, 563, 573)
+Aug 22, 2019 2:29:51 PM scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+Aug 22, 2019 2:29:51 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.reflect.internal.Definitions$DefinitionsClass.isByNameParamType(Definitions.scala:416)
+	at scala.reflect.internal.TreeInfo.isStableIdent(TreeInfo.scala:137)
+	at scala.reflect.internal.TreeInfo.isStableIdentifier(TreeInfo.scala:113)
+	at scala.reflect.internal.TreeInfo.isPath(TreeInfo.scala:102)
+	at scala.reflect.internal.TreeInfo.admitsTypeSelection(TreeInfo.scala:155)
+	at scala.tools.nsc.interactive.Global.stabilizedType(Global.scala:959)
+	at scala.tools.nsc.interactive.Global.typedTreeAt(Global.scala:807)
+	at scala.meta.internal.pc.HoverProvider.typedHoverTreeAt(HoverProvider.scala:230)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:24)
+
+WARN  code navigation does not work for the file 'd:\scala\w1recfun\src\main\scala\recfun\Main.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file 'd:\scala\w1recfun\src\main\scala\recfun\Main.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file 'd:\scala\w1recfun\src\main\scala\recfun\Main.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file 'd:\scala\w1recfun\src\main\scala\recfun\Main.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file 'd:\scala\w1recfun\src\main\scala\recfun\Main.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file 'd:\scala\w1recfun\src\main\scala\recfun\Main.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file 'd:\scala\w1recfun\src\main\scala\recfun\Main.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file 'd:\scala\w1recfun\src\main\scala\recfun\Main.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file 'd:\scala\w1recfun\src\main\scala\recfun\Main.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file 'd:\scala\w1recfun\src\main\scala\recfun\Main.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file 'd:\scala\w1recfun\src\main\scala\recfun\Main.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file 'd:\scala\w1recfun\src\main\scala\recfun\Main.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file 'd:\scala\w1recfun\src\main\scala\recfun\Main.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file 'd:\scala\w1recfun\src\main\scala\recfun\Main.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file 'd:\scala\w1recfun\src\main\scala\recfun\Main.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file 'd:\scala\w1recfun\src\main\scala\recfun\Main.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file 'd:\scala\w1recfun\src\main\scala\recfun\Main.scala' because it doesn't belong to a build target.
+WARN  no build target: d:\scala\w1recfun\src\main\scala\recfun\Main.scala
+WARN  no build target: d:\scala\w1recfun\src\main\scala\recfun\Main.scala
+WARN  code navigation does not work for the file 'd:\scala\w1recfun\src\main\scala\recfun\Main.scala' because it doesn't belong to a build target.
+WARN  no build target: d:\scala\w1recfun\src\main\scala\recfun\Main.scala
+WARN  code navigation does not work for the file 'd:\scala\w1recfun\src\main\scala\recfun\Main.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file 'd:\scala\w1recfun\src\main\scala\recfun\Main.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file 'd:\scala\w1recfun\src\main\scala\recfun\Main.scala' because it doesn't belong to a build target.
+WARN  no build target: d:\scala\w1recfun\src\main\scala\recfun\Main.scala
+WARN  code navigation does not work for the file 'd:\scala\w1recfun\src\main\scala\recfun\Main.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file 'd:\scala\w1recfun\src\main\scala\recfun\Main.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file 'd:\scala\w1recfun\src\main\scala\recfun\Main.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file 'd:\scala\w1recfun\src\main\scala\recfun\Main.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file 'd:\scala\w1recfun\src\main\scala\recfun\Main.scala' because it doesn't belong to a build target.
+WARN  no build target: d:\scala\w1recfun\src\main\scala\recfun\Main.scala
+INFO  shutting down Metals
+INFO  time: initialize in 1.91s
+INFO  skipping build import with status 'Requested'
+INFO  shutting down Metals

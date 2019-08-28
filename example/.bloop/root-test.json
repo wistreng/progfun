@@ -1,0 +1,288 @@
+{
+    "version" : "1.1.2",
+    "project" : {
+        "name" : "root-test",
+        "directory" : "D:\\example",
+        "sources" : [
+            "D:\\example\\src\\test\\scala-2.11",
+            "D:\\example\\src\\test\\scala",
+            "D:\\example\\src\\test\\java",
+            "D:\\example\\target\\scala-2.11\\src_managed\\test"
+        ],
+        "dependencies" : [
+            "root"
+        ],
+        "classpath" : [
+            "D:\\example\\.bloop\\root\\scala-2.11\\classes",
+            "C:\\Users\\FrankZhang(AWARE)\\AppData\\Local\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-lang\\scala-reflect\\2.11.12\\scala-reflect-2.11.12.jar",
+            "C:\\Users\\FrankZhang(AWARE)\\AppData\\Local\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\hamcrest\\hamcrest-core\\1.1\\hamcrest-core-1.1.jar",
+            "C:\\Users\\FrankZhang(AWARE)\\AppData\\Local\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-lang\\modules\\scala-parser-combinators_2.11\\1.0.4\\scala-parser-combinators_2.11-1.0.4.jar",
+            "C:\\Users\\FrankZhang(AWARE)\\AppData\\Local\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-lang\\modules\\scala-xml_2.11\\1.0.2\\scala-xml_2.11-1.0.2.jar",
+            "C:\\Users\\FrankZhang(AWARE)\\AppData\\Local\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scalatest\\scalatest_2.11\\2.2.4\\scalatest_2.11-2.2.4.jar",
+            "C:\\Users\\FrankZhang(AWARE)\\AppData\\Local\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\junit\\junit\\4.10\\junit-4.10.jar",
+            "C:\\Users\\FrankZhang(AWARE)\\AppData\\Local\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-lang\\scala-library\\2.11.12\\scala-library-2.11.12.jar"
+        ],
+        "out" : "D:\\example\\.bloop\\root",
+        "classesDir" : "D:\\example\\.bloop\\root\\scala-2.11\\test-classes",
+        "resources" : [
+            "D:\\example\\src\\test\\resources",
+            "D:\\example\\target\\scala-2.11\\resource_managed\\test"
+        ],
+        "scala" : {
+            "organization" : "org.scala-lang",
+            "name" : "scala-compiler",
+            "version" : "2.11.12",
+            "options" : [
+                "-deprecation",
+                "-P:semanticdb:synthetics:on",
+                "-P:semanticdb:failures:warning",
+                "-P:semanticdb:sourceroot:D:\\example",
+                "-Yrangepos",
+                "-Xplugin-require:semanticdb",
+                "-Xplugin:C:\\Users\\FrankZhang(AWARE)\\AppData\\Local\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scalameta\\semanticdb-scalac_2.11.12\\4.1.9\\semanticdb-scalac_2.11.12-4.1.9.jar"
+            ],
+            "jars" : [
+                "C:\\Users\\FrankZhang(AWARE)\\AppData\\Local\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-lang\\scala-library\\2.11.12\\scala-library-2.11.12.jar",
+                "C:\\Users\\FrankZhang(AWARE)\\AppData\\Local\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-lang\\scala-compiler\\2.11.12\\scala-compiler-2.11.12.jar",
+                "C:\\Users\\FrankZhang(AWARE)\\AppData\\Local\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-lang\\scala-reflect\\2.11.12\\scala-reflect-2.11.12.jar",
+                "C:\\Users\\FrankZhang(AWARE)\\AppData\\Local\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-lang\\modules\\scala-xml_2.11\\1.0.5\\scala-xml_2.11-1.0.5.jar",
+                "C:\\Users\\FrankZhang(AWARE)\\AppData\\Local\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-lang\\modules\\scala-parser-combinators_2.11\\1.0.4\\scala-parser-combinators_2.11-1.0.4.jar",
+                "C:\\Users\\FrankZhang(AWARE)\\AppData\\Local\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\jline\\jline\\2.14.3\\jline-2.14.3.jar"
+            ],
+            "setup" : {
+                "order" : "mixed",
+                "addLibraryToBootClasspath" : true,
+                "addCompilerToClasspath" : false,
+                "addExtraJarsToClasspath" : false,
+                "manageBootClasspath" : true,
+                "filterLibraryFromClasspath" : true
+            }
+        },
+        "java" : {
+            "options" : [
+            ]
+        },
+        "test" : {
+            "frameworks" : [
+                {
+                    "names" : [
+                        "org.scalacheck.ScalaCheckFramework"
+                    ]
+                },
+                {
+                    "names" : [
+                        "org.specs2.runner.Specs2Framework",
+                        "org.specs2.runner.SpecsFramework"
+                    ]
+                },
+                {
+                    "names" : [
+                        "org.specs.runner.SpecsFramework"
+                    ]
+                },
+                {
+                    "names" : [
+                        "org.scalatest.tools.Framework",
+                        "org.scalatest.tools.ScalaTestFramework"
+                    ]
+                },
+                {
+                    "names" : [
+                        "com.novocode.junit.JUnitFramework"
+                    ]
+                }
+            ],
+            "options" : {
+                "excludes" : [
+                ],
+                "arguments" : [
+                ]
+            }
+        },
+        "platform" : {
+            "name" : "jvm",
+            "config" : {
+                "home" : "C:\\Program Files\\Java\\jdk1.8.0_144\\jre",
+                "options" : [
+                ]
+            },
+            "mainClass" : [
+            ]
+        },
+        "resolution" : {
+            "modules" : [
+                {
+                    "organization" : "org.scala-lang",
+                    "name" : "scala-library",
+                    "version" : "2.11.12",
+                    "configurations" : "default",
+                    "artifacts" : [
+                        {
+                            "name" : "scala-library",
+                            "path" : "C:\\Users\\FrankZhang(AWARE)\\AppData\\Local\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-lang\\scala-library\\2.11.12\\scala-library-2.11.12.jar"
+                        },
+                        {
+                            "name" : "scala-library",
+                            "classifier" : "javadoc",
+                            "path" : "C:\\Users\\FrankZhang(AWARE)\\AppData\\Local\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-lang\\scala-library\\2.11.12\\scala-library-2.11.12-javadoc.jar"
+                        },
+                        {
+                            "name" : "scala-library",
+                            "classifier" : "sources",
+                            "path" : "C:\\Users\\FrankZhang(AWARE)\\AppData\\Local\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-lang\\scala-library\\2.11.12\\scala-library-2.11.12-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization" : "org.scala-lang",
+                    "name" : "scala-reflect",
+                    "version" : "2.11.12",
+                    "configurations" : "default",
+                    "artifacts" : [
+                        {
+                            "name" : "scala-reflect",
+                            "path" : "C:\\Users\\FrankZhang(AWARE)\\AppData\\Local\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-lang\\scala-reflect\\2.11.12\\scala-reflect-2.11.12.jar"
+                        },
+                        {
+                            "name" : "scala-reflect",
+                            "classifier" : "javadoc",
+                            "path" : "C:\\Users\\FrankZhang(AWARE)\\AppData\\Local\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-lang\\scala-reflect\\2.11.12\\scala-reflect-2.11.12-javadoc.jar"
+                        },
+                        {
+                            "name" : "scala-reflect",
+                            "classifier" : "sources",
+                            "path" : "C:\\Users\\FrankZhang(AWARE)\\AppData\\Local\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-lang\\scala-reflect\\2.11.12\\scala-reflect-2.11.12-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization" : "org.hamcrest",
+                    "name" : "hamcrest-core",
+                    "version" : "1.1",
+                    "configurations" : "default",
+                    "artifacts" : [
+                        {
+                            "name" : "hamcrest-core",
+                            "path" : "C:\\Users\\FrankZhang(AWARE)\\AppData\\Local\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\hamcrest\\hamcrest-core\\1.1\\hamcrest-core-1.1.jar"
+                        },
+                        {
+                            "name" : "hamcrest-core",
+                            "classifier" : "sources",
+                            "path" : "C:\\Users\\FrankZhang(AWARE)\\AppData\\Local\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\hamcrest\\hamcrest-core\\1.1\\hamcrest-core-1.1-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization" : "org.scala-lang.modules",
+                    "name" : "scala-parser-combinators_2.11",
+                    "version" : "1.0.4",
+                    "configurations" : "default",
+                    "artifacts" : [
+                        {
+                            "name" : "scala-parser-combinators_2.11",
+                            "path" : "C:\\Users\\FrankZhang(AWARE)\\AppData\\Local\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-lang\\modules\\scala-parser-combinators_2.11\\1.0.4\\scala-parser-combinators_2.11-1.0.4.jar"
+                        },
+                        {
+                            "name" : "scala-parser-combinators_2.11",
+                            "classifier" : "sources",
+                            "path" : "C:\\Users\\FrankZhang(AWARE)\\AppData\\Local\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-lang\\modules\\scala-parser-combinators_2.11\\1.0.4\\scala-parser-combinators_2.11-1.0.4-sources.jar"
+                        },
+                        {
+                            "name" : "scala-parser-combinators_2.11",
+                            "classifier" : "javadoc",
+                            "path" : "C:\\Users\\FrankZhang(AWARE)\\AppData\\Local\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-lang\\modules\\scala-parser-combinators_2.11\\1.0.4\\scala-parser-combinators_2.11-1.0.4-javadoc.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization" : "org.scala-lang.modules",
+                    "name" : "scala-xml_2.11",
+                    "version" : "1.0.2",
+                    "configurations" : "default",
+                    "artifacts" : [
+                        {
+                            "name" : "scala-xml_2.11",
+                            "path" : "C:\\Users\\FrankZhang(AWARE)\\AppData\\Local\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-lang\\modules\\scala-xml_2.11\\1.0.2\\scala-xml_2.11-1.0.2.jar"
+                        },
+                        {
+                            "name" : "scala-xml_2.11",
+                            "classifier" : "javadoc",
+                            "path" : "C:\\Users\\FrankZhang(AWARE)\\AppData\\Local\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-lang\\modules\\scala-xml_2.11\\1.0.2\\scala-xml_2.11-1.0.2-javadoc.jar"
+                        },
+                        {
+                            "name" : "scala-xml_2.11",
+                            "classifier" : "sources",
+                            "path" : "C:\\Users\\FrankZhang(AWARE)\\AppData\\Local\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-lang\\modules\\scala-xml_2.11\\1.0.2\\scala-xml_2.11-1.0.2-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization" : "org.scalatest",
+                    "name" : "scalatest_2.11",
+                    "version" : "2.2.4",
+                    "configurations" : "default",
+                    "artifacts" : [
+                        {
+                            "name" : "scalatest_2.11",
+                            "path" : "C:\\Users\\FrankZhang(AWARE)\\AppData\\Local\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scalatest\\scalatest_2.11\\2.2.4\\scalatest_2.11-2.2.4.jar"
+                        },
+                        {
+                            "name" : "scalatest_2.11",
+                            "classifier" : "javadoc",
+                            "path" : "C:\\Users\\FrankZhang(AWARE)\\AppData\\Local\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scalatest\\scalatest_2.11\\2.2.4\\scalatest_2.11-2.2.4-javadoc.jar"
+                        },
+                        {
+                            "name" : "scalatest_2.11",
+                            "classifier" : "sources",
+                            "path" : "C:\\Users\\FrankZhang(AWARE)\\AppData\\Local\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scalatest\\scalatest_2.11\\2.2.4\\scalatest_2.11-2.2.4-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization" : "junit",
+                    "name" : "junit",
+                    "version" : "4.10",
+                    "configurations" : "default",
+                    "artifacts" : [
+                        {
+                            "name" : "junit",
+                            "path" : "C:\\Users\\FrankZhang(AWARE)\\AppData\\Local\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\junit\\junit\\4.10\\junit-4.10.jar"
+                        },
+                        {
+                            "name" : "junit",
+                            "classifier" : "javadoc",
+                            "path" : "C:\\Users\\FrankZhang(AWARE)\\AppData\\Local\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\junit\\junit\\4.10\\junit-4.10-javadoc.jar"
+                        },
+                        {
+                            "name" : "junit",
+                            "classifier" : "sources",
+                            "path" : "C:\\Users\\FrankZhang(AWARE)\\AppData\\Local\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\junit\\junit\\4.10\\junit-4.10-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization" : "org.scala-lang",
+                    "name" : "scala-library",
+                    "version" : "2.11.12",
+                    "configurations" : "optional",
+                    "artifacts" : [
+                        {
+                            "name" : "scala-library",
+                            "path" : "C:\\Users\\FrankZhang(AWARE)\\AppData\\Local\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-lang\\scala-library\\2.11.12\\scala-library-2.11.12.jar"
+                        },
+                        {
+                            "name" : "scala-library",
+                            "classifier" : "javadoc",
+                            "path" : "C:\\Users\\FrankZhang(AWARE)\\AppData\\Local\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-lang\\scala-library\\2.11.12\\scala-library-2.11.12-javadoc.jar"
+                        },
+                        {
+                            "name" : "scala-library",
+                            "classifier" : "sources",
+                            "path" : "C:\\Users\\FrankZhang(AWARE)\\AppData\\Local\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-lang\\scala-library\\2.11.12\\scala-library-2.11.12-sources.jar"
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}
